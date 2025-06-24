@@ -1,0 +1,74 @@
+/* styles/app.css */
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.sidebar {
+  width: 220px;
+  height: 100vh;
+  background-color: #d6eaff;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar h5 {
+  font-weight: 600;
+}
+
+.sidebar .nav-link {
+  color: #333;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.sidebar .nav-link.active,
+.sidebar .nav-link:hover {
+  color: #ff8c42;
+  background-color: transparent;
+}
+
+.billing-content {
+  background-color: #fff;
+  min-height: 100vh;
+}
+input:focus {
+  box-shadow: none !important;
+  border: 1px solid #ccc !important;
+}
+
+.btn-warning {
+  background-color: #f47c3c;
+  border: none;
+}
+
+.btn-warning:hover {
+  background-color: #e3682e;
+}
+.customer-details small {
+  font-size: 12px;
+  color: #888;
+}
+
+.customer-details .fw-semibold {
+  font-weight: 500;
+}
+.btn-warning {
+  background-color: #f47c3c;
+  border: none;
+  color: #fff;
+}
+
+.btn-warning:hover {
+  background-color: #df6a27;
+}
+.compact-row {
+  padding: 0.5rem !important;
+  margin-bottom: 0.5rem !important;
+  font-size: 0.9rem;
+}
+
+.compact-row .btn {
+  padding: 2px 6px !important;
+  font-size: 0.8rem;
+}
